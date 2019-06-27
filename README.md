@@ -1,3 +1,3 @@
 # Fetch
 
-gh-pages link: https://ostapkoverko.github.io/fetch
+gh-pages link: https://ostapkoverko.github.io/fetch/.
