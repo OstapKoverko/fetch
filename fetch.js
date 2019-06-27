@@ -9,7 +9,7 @@ async function loadGames(source) {
   const response = await fetch(source);
   const json = await response.json();
   return rendering(json);
-}
+} 
 
 function rendering(games) {
   document.getElementById('target').innerHTML = `
