@@ -2,17 +2,14 @@
 // const source = 'http://127.0.0.1:8080/dataDefault.json';
 // const source2 = 'http://127.0.0.1:8080/dataLoad.json';
 
+const source = 'https://ostapkoverko.github.io/fetch/dataDefault.json';
+const source2 = 'https://ostapkoverko.github.io/fetch/dataLoad.json';
+
 async function loadGames(source) {
   const response = await fetch(source);
   const json = await response.json();
   return rendering(json);
 }
-
-// async function loadGames(source) {
-//   const response = await fetch(source);
-//   const json = await response.json();
-//   return rendering(json);
-// }
 
 function rendering(games) {
   document.getElementById('target').innerHTML = `
