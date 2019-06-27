@@ -1,3 +1,3 @@
-# fetch
+# Fetch
 
-https://github.com/OstapKoverko/fetch.git
+gh-pages link: https://github.com/OstapKoverko/fetch
